@@ -1,0 +1,156 @@
+ @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico');
+
+.container {
+    width: 100%;
+}
+
+body{ 
+    background-size: 75%;
+    background-image: url("../images/texture.jpg");
+    }
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    color: #5B794B;
+}
+
+h2, h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #93C178; 
+}
+
+h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #93C178; 
+    text-align: center;
+}
+
+.banner {
+	background:url("../images/lavender.jpg");
+	height:150px;
+	background-size: cover;
+	background position: bottom;
+}
+
+/* start nav bar code */
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	background: #465C8B;
+	padding: 5px 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 20%;
+}
+
+nav ul li a {
+	font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	color: #DFDCE8;
+	display: inline-block;
+	padding: 5px;
+	transition: .25s;
+}
+nav ul li a:hover {
+	background: #465C8B;
+	color: #DFDCE8;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+/* end nav bar code */
+
+
+/* start home page code */
+
+    
+.words {	
+	height: auto;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: #465C8B;
+}
+
+/* end home page code */
+
+
+/* start SLK recipe code */
+
+.row {
+  	display: flex;
+	}
+
+.row {
+  	display: flex;
+	}
+
+
+.col, .col2, .col3, .col4, .col5, .col6{
+	  height: auto;
+	  flex: 1;
+	  padding: 10px;
+	  margin: 10px;
+	  background: #ffffff;
+	  font-size: 20px;
+	  font-family: 'Josefin Sans', sans-serif;
+	  text-decoration: none;
+	  color: #465C8B;
+}
+/* end SLK code */
+
+
+/* j start page code */
+.Tips  {
+/*width: 40%;*/
+/*margin: .2;*/
+float: left;
+/* border: 2px solid #465C8B;
+padding: 5px;
+border-radius: 15px; */
+font-size: 20px;
+font-family: 'Josefin Sans', sans-serif;
+color: #465C8B;
+}
+
+/* SLK tips code */
+
+.col5{
+    border: 2px solid #465C8B;
+    padding: 5px;
+    border-radius: 15px;
+    }
+
+.col6{
+    border: 2px solid #465C8B;
+    padding: 5px;
+    border-radius: 15px;    
+    /*background-image: url(.."images/images/beauty-treatment.jpg); */
+
+/* SLK tips code */
+
+/* j start page code */
+.ul{
+line-height: 1.5;
+text-indent: 15px;
+	
+}
+
+.face{
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+/* j end page code */
+
+
+
+
